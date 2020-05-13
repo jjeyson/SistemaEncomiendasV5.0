@@ -1,0 +1,60 @@
+﻿@using System.Data
+@{
+    ViewBag.Title = "ListarEnvios";
+    Layout = "~/Views/MasterPrincipal.cshtml";
+}
+@model IEnumerable<C3_Dominio.Entidades.DocumentoPago>
+<h2>Listar Envíos Pendientes</h2>
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">
+                Lista de envíos pendientes
+            </header>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                    <th>N°</th>
+                    <th>Ruta</th>
+                    <th>Tipo Documento</th>
+                    <th>FechaEnvio</th>
+                    <th>Numero Serie</th>
+                    <th>Numero Documento</th>
+                    <th>Remitente</th>
+                    <th>Destinatario</th>
+                    <th>Total</th>
+                    <th>Estado</th>
+                    <th>Acción</th>
+                    </thead>
+                    <tbody>
+                        @{
+                            int i = 0;
+                            if (Model != null)
+                            {
+                                foreach (var m in Model)
+                                {
+                                    i++;
+                        <tr>
+                            <td>@i</td>
+                            <td>@Html.DisplayFor(modelItem => m.DocumentoEnvio.Ruta.Descripcion)</td>
+                            <td>@Html.DisplayFor(modelItem => m.TipoDocumento)</td>
+                            <td>@Html.DisplayFor(modelItem => m.DocumentoEnvio.FechaEnvio)</td>
+                            <td>@Html.DisplayFor(modelItem => m.NumSerie)</td>
+                            <td>@Html.DisplayFor(modelItem => m.NumDocumento)</td>
+                            <td>@Html.DisplayFor(modelItem => m.DocumentoEnvio.ClienteEnvio.NombreCliente)</td>
+                            <td>@Html.DisplayFor(modelItem => m.DocumentoEnvio.ClienteEntrega.NombreCliente)</td>
+                            <td>@Html.DisplayFor(modelItem => m.Monto)</td>
+                            <td>@Html.DisplayFor(modelItem => m.DocumentoEnvio.Estado)</td>
+                            <td>@Html.ActionLink("Enviar", "EnviarEncomienda", new { idEnvio = m.DocumentoEnvio.IdDocumentoEnvioEncomienda })</td>
+                        </tr>
+                                }
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+    </div>
+</div>
+<h3 align="center" style="color:red">@ViewBag.mensaje</h3>

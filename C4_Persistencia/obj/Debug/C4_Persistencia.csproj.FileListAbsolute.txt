@@ -1,0 +1,133 @@
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.dll
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.pdb
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.dll
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.pdb
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.csprojResolveAssemblyReference.cache
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.dll
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.pdb
+H:\USB\calidad\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.dll.config
+H:\USB\calidad\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.dll
+H:\USB\calidad\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.pdb
+H:\USB\calidad\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.dll
+H:\USB\calidad\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.pdb
+H:\USB\calidad\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.csprojResolveAssemblyReference.cache
+H:\USB\calidad\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.dll
+H:\USB\calidad\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.pdb
+M:\USB\calidad\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.dll.config
+M:\USB\calidad\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.dll
+M:\USB\calidad\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.pdb
+M:\USB\calidad\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.dll
+M:\USB\calidad\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.pdb
+M:\USB\calidad\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.csprojResolveAssemblyReference.cache
+M:\USB\calidad\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.dll
+M:\USB\calidad\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.pdb
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.dll.config
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.dll
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.pdb
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.dll
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.pdb
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.csprojResolveAssemblyReference.cache
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.dll
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.pdb
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.dll.config
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.dll
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.pdb
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.dll
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.pdb
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.csprojResolveAssemblyReference.cache
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.dll
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.pdb
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.dll.config
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.dll
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.pdb
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.dll
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.pdb
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.csprojResolveAssemblyReference.cache
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.dll
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.pdb
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.dll.config
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.dll
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.pdb
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.dll
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.pdb
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.csprojResolveAssemblyReference.cache
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.dll
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.pdb
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.dll.config
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.dll
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.pdb
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.dll
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.pdb
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.csprojResolveAssemblyReference.cache
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.dll
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.pdb
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.dll.config
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.dll
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.pdb
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.dll
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.pdb
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.csprojResolveAssemblyReference.cache
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.dll
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.pdb
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.dll.config
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.dll
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C4_Persistencia.pdb
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.dll
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C4_Persistencia\bin\Debug\C3_Dominio.pdb
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.csprojResolveAssemblyReference.cache
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.dll
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C4_Persistencia\obj\Debug\C4_Persistencia.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C4_Persistencia\bin\Debug\C4_Persistencia.dll.config
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C4_Persistencia\bin\Debug\C4_Persistencia.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C4_Persistencia\bin\Debug\C4_Persistencia.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C4_Persistencia\bin\Debug\C3_Dominio.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C4_Persistencia\bin\Debug\C3_Dominio.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.csprojResolveAssemblyReference.cache
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.pdb
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C4_Persistencia\bin\Debug\C4_Persistencia.dll.config
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C4_Persistencia\bin\Debug\C4_Persistencia.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C4_Persistencia\bin\Debug\C4_Persistencia.pdb
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C4_Persistencia\bin\Debug\C3_Dominio.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C4_Persistencia\bin\Debug\C3_Dominio.pdb
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.csprojAssemblyReference.cache
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.csproj.CopyComplete
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.pdb
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C4_Persistencia\bin\Debug\C4_Persistencia.dll.config
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C4_Persistencia\bin\Debug\C4_Persistencia.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C4_Persistencia\bin\Debug\C4_Persistencia.pdb
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C4_Persistencia\bin\Debug\C3_Dominio.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C4_Persistencia\bin\Debug\C3_Dominio.pdb
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.csprojResolveAssemblyReference.cache
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.pdb
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\bin\Debug\C4_Persistencia.dll.config
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\bin\Debug\C4_Persistencia.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\bin\Debug\C4_Persistencia.pdb
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\bin\Debug\C3_Dominio.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\bin\Debug\C3_Dominio.pdb
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.csprojAssemblyReference.cache
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.csproj.CopyComplete
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.pdb
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\bin\Debug\C4_Persistencia.dll.config
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\bin\Debug\C4_Persistencia.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\bin\Debug\C4_Persistencia.pdb
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\bin\Debug\C3_Dominio.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\bin\Debug\C3_Dominio.pdb
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.csprojResolveAssemblyReference.cache
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.pdb
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\bin\Debug\C4_Persistencia.dll.config
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\bin\Debug\C4_Persistencia.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\bin\Debug\C4_Persistencia.pdb
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\bin\Debug\C3_Dominio.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\bin\Debug\C3_Dominio.pdb
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.csprojAssemblyReference.cache
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.csproj.CopyComplete
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C4_Persistencia\obj\Debug\C4_Persistencia.pdb

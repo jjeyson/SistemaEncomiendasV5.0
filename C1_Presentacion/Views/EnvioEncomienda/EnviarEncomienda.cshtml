@@ -1,0 +1,101 @@
+﻿@model C3_Dominio.Entidades.DocumentoPago
+@{
+    ViewBag.Title = "EnviarEncomienda";
+    Layout = "~/Views/MasterPrincipal.cshtml";
+}
+
+<h2>Enviar Encomienda</h2>
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    if (ViewBag.Message != null)
+    {
+        <div style="padding:5px; width:300px;color:red; border:1px solid green">
+            @ViewBag.Message
+        </div>
+    }
+    <form method="post" action="EnviarEncomienda" class="col-md-12">
+        <h3 align="center" style="color:red">@ViewBag.mensaje</h3>
+        <div class="form-group row">
+            <label class="col-md-2">Fecha de Envio :</label>
+            <div class="col-md-10">
+                <input class="form-control" name="txtFechaEnvio" onkeypress="return soloFechas(event)" type="datetime" id="txtFechaEnvio" value="@Html.DisplayFor(model => model.DocumentoEnvio.FechaEnvio)" placeholder="Fecha DD/MM/AAAA" maxlength="10" onkeypress="return soloFechas(event)" onpaste="return false" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-md-2">Tipo Comprobante:</label>
+            <div class="col-md-10">
+                <input class="form-control" disabled="disabled" type="text" name="txtTipoComprobante" id="txtTipoComprobante" value="@Html.DisplayFor(model => model.TipoDocumento)" />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-md-2">Dirección :</label>
+            <div class="col-md-10">
+                <input class="form-control" type="text" name="txtDireccion" id="txtDireccion" value="@Html.DisplayFor(model => model.DocumentoEnvio.ADomicilio)" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-md-2">Conductor :</label>
+            <div class="col-md-10">
+                <input class="form-control" type="text" name="txtConductor" id="txtConductor" value="@Html.DisplayFor(model => model.DocumentoEnvio.Conductor)" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-md-2">Cantidad de paquetes :</label>
+            <div class="col-md-10">
+                <input class="form-control" type="text" name="txtqtypackages" onkeypress="return solonumeros(event)" id="txtqtypackages" value="@Html.DisplayFor(model => model.DocumentoEnvio.CantidadPaquetes)" />
+            </div>
+        </div>
+        <input type="text" id="txtCantidadPaquetes" style="display:none" value="@Html.DisplayFor(model => model.DocumentoEnvio.CantidadPaquetes2)" />
+        <div class="form-group row">
+            <input type="submit" class="btn col-md-3" value="REGISTRAR ENVIO" name="EnviarEncomienda" id="EnviarEncomienda" />
+        </div>
+    </form>
+}
+<script src="~/Bootstrap/js/jquery-1.11.0.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#txtFechaEnvio").datepicker({ dateFormat: 'dd/mm/yy' }).val();
+    });
+    $("#EnviarEncomienda").click(function (e) {
+        if ($("#txtCantidadPaquetes").val() == $("#txtqtypackages").val()) {
+
+        } else {
+            e.preventDefault();
+            alert("La cantidad no es la misma que se ingresó al gestionar el envío.");
+        }
+    });
+    function solonumeros(e) {
+        key = e.keyCode || e.which;
+        teclado = String.fromCharCode(key);
+        numero = "0123456789";
+        especiales = "8-37-38-46";//array
+        teclado_especial = false;
+        for (var i in especiales) {
+            if (key == especiales[i]) {
+                teclado_especial = true;
+            }
+        }
+        if (numero.indexOf(teclado) == -1 && !teclado_especial) {
+            return false;
+        }
+
+    }
+    function soloFechas(e) {
+        key = e.keyCode || e.which;
+        teclado = String.fromCharCode(key);
+        numero = "0123456789/";
+        especiales = "8-37-38-46";//array
+        teclado_especial = false;
+        for (var i in especiales) {
+            if (key == especiales[i]) {
+                teclado_especial = true;
+            }
+        }
+        if (numero.indexOf(teclado) == -1 && !teclado_especial) {
+            return false;
+        }
+
+    }
+</script>

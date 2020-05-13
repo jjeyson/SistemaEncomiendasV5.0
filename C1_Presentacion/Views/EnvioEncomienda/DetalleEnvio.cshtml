@@ -1,0 +1,62 @@
+﻿@using System.Data
+
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">
+                Paquetes a Enviar
+            </header>
+            <div class="table-responsive">
+                <table class="table" id="tbl_Details">
+                    <thead>
+                    <th>N°</th>
+                    <th>Descripcion</th>
+                    <th>Peso</th>
+                    <th>Precio por Gramo</th>
+                    <th>Total</th>
+                    </thead>
+                    <tbody>
+                        @{
+                            DataTable dt = (DataTable)Session["DetEnvio"]; int i = 0;
+                            foreach (DataRow r in dt.Rows)
+                            {
+                                i++;
+                                <tr>
+                                    <td>@i</td>
+                                    <td>@r["Descripcion"]</td>
+                                    <td>@r["Peso"]</td>
+                                    <td>@r["CostoGramo"]</td>
+                                    <td>@r["Precio"]</td>
+                                    @*<td>
+                                       <form action="../EnvioEncomienda/BorrarItem">
+                                            <input type="submit" value="Quitar" name="btnBorrar" id="btnBorrar"/>
+                                          </form>
+                                    </td>*@
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+
+        </section>
+    </div>
+</div>
+<div id="Borrar">
+</div>
+<input class="btn" type="button" value="CALCULAR" id="CalculoPrecios" />
+<div id="CalcPrecios">
+</div>
+<script type="text/javascript">
+    $("#CalculoPrecios").click(function () {
+        $("#CalcPrecios").load('@Url.Action("CalculoPrecios", "EnvioEncomienda")', {
+
+        })
+    });
+    $("#btnBorrar").click(function () {
+        $("#Borrar").load('@Url.Action("BorrarItem", "EnvioEncomienda")', {
+
+        })
+    });
+</script>

@@ -1,0 +1,371 @@
+﻿@model C3_Dominio.Entidades.DocumentoPago
+
+@{
+    ViewBag.Title = "GestionarEnvioEncomienda";
+    Layout = "~/Views/MasterPrincipal.cshtml";
+}
+<h2>Registrar Envío Encomienda</h2>
+<h3>@ViewBag.mensaje</h3>
+<form method="post" action="GuardarEnvioEncomienda" class="col-md-12">
+    <div class="form-group row">
+        <label class="col-md-2">Fecha de Envio :</label>
+        <div class="col-md-10">
+            <input class="form-control" name="txtFechaEnvio" type="datetime" id="txtFechaEnvio" required placeholder="Fecha DD/MM/AAAA" maxlength="10" onkeypress="return soloFechas(event)" onpaste="return false" /></td>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-md-2">Tipo Comprobante :</label>
+        <div class="col-md-10">
+            <select class="form-control" id="SeleccionarTipoDocumento" name="combo">
+                <option value="0">--Seleccionar--</option>
+                <option value="BOLETA">BOLETA</option>
+                <option value="FACTURA">FACTURA</option>
+            </select>
+        </div>
+    </div>
+    <div id="TipoDocumento">
+        <div class="form-group row">
+            <div class="col-md-2">
+                <label name="txtTipoDocumento" id="txtTipoDocumento">
+                </label>
+            </div>
+            <label class="col-md-2">Numero Serie: </label>
+            <div class="col-md-3">
+                <input name="txtNSeries" class="form-control" type="text" id="txtNSeries" disabled="disabled" />
+            </div>
+            <label class="col-md-2">Numero Documento: </label>
+            <div class="col-md-3">
+                <input name="txtNdocumentos" class="form-control" type="text" id="txtNdocumentos" disabled="disabled" />
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-md-2">Ruta:</label>
+        <div class="col-md-10">
+            @Html.DropDownList("Ruta", (SelectList)ViewBag.ListaRutas, "<<Seleccionar>>", new { id = "cboRuta", @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-md-2">Tipo de destino:</label>
+        <div class="col-md-9">
+            <input id="aDomicilio" name="aDomicilio" type="checkbox" value="SI" checked /><label>A domicilio</label>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-md-2" id="lblDireccion">Direccion</label>
+        <div class="col-md-10">
+            <input class="form-control" name="txtDireccion" type="text" id="txtDireccion" placeholder="Ingresa Direccion" required />
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-md-2">Remitente:</label>
+        <div class="col-md-10">
+            <div class="col-md-6" style="padding: 0px;">
+                <input class="form-control" type="text" id="txtDniRuc" placeholder="Ingresa RUC o DNI" maxlength="11" onkeypress="return solonumeros(event)" onpaste="return false" required />
+            </div>
+            <input class="col-md-2 btn" type="button" value="BUSCAR" id="ClienteEnvio" />
+        </div>
+    </div>
+    <div id="cEnvio">
+
+    </div>
+    <div class="form-group row">
+        <label class="col-md-2">Destinatario:</label>
+        <div class="col-md-10">
+            <div class="col-md-6" style="padding: 0px;">
+                <input class="form-control" type="text" id="txtDniRuc2" placeholder="Ingresa RUC o DNI" maxlength="11" onkeypress="return solonumeros(event)" onpaste="return false" required />
+            </div>
+            <input class="col-md-2 btn" type="button" value="BUSCAR" id="ClienteEntrega" />
+        </div>
+    </div>
+    <div id="cEntrega">
+
+    </div>
+    <div class="form-group row">
+        <label class="col-md-2">Descripcion:</label>
+        <div class="col-md-3">
+            <input name="txtDescripcion" class="form-control" type="text" id="txtDescripcion" placeholder="Ingresa Descripcion" required />
+        </div>
+        <label class="col-md-2">Peso:</label>
+        <div class="col-md-3" style="padding: 0px;">
+            <input name="txtPeso" class="form-control" type="text" id="txtPeso" placeholder="Ingresa Peso" onkeypress="return solonumeros(event)" onpaste="return false" required />
+        </div>
+        <input type="button" class="col-md-2 btn" value="AGREGAR" id="DetalleEnvio" />
+    </div>
+    <div id="DetaEnvio">
+        <div class="col-lg-12">
+            <section class="panel">
+                <header class="panel-heading">
+                    Paquetes a Enviar
+                </header>
+                <div class="table-responsive">
+                    <table class="table" id="tbl_Details">
+                        <thead>
+                        <th>N°</th>
+                        <th>Descripcion</th>
+                        <th>Peso</th>
+                        <th>Precio por Gramo</th>
+                        <th>Total</th>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+
+                </div>
+
+            </section>
+            <div id="CalcPrecios">
+                <div class="form-group row">
+                    <label class="col-md-2">SubTotal :</label>
+                    <div class="col-md-3">
+                        <input name="txtSubTotal" class="form-control" type="text" maxlength="25" id="txtSubTotal" disabled="disabled" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-2">Descuento :</label>
+                    <div class="col-md-3">
+                        <input name="txtDescuento" class="form-control" type="text" maxlength="25" id="txtDescuento" disabled="disabled" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-2">Monto a Pagar :</label>
+                    <div class="col-md-3">
+                        <input name="txtMontoPagar" class="form-control" type="text" maxlength="25" id="txtMontoPagar" disabled="disabled" />
+                    </div>
+                </div>
+                <div class="form-group row"><input type="submit" class="btn col-md-3" value="REGISTRAR ENVIO" id="btnRegistrarEnvio" name="btnRegistrarEnvio" /> </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <h3 align="center" style="color:red">@ViewBag.mensaje</h3>
+</form>
+<h3 align="center" style="color:red">@ViewBag.mensaje</h3>
+<script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="~/Bootstrap/js/jquery-ui-1.11.2/jquery-ui.js"></script>
+<script src="~/Bootstrap/js/jquery-ui-1.11.2/jquery-ui.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#txtFechaEnvio").datepicker({ dateFormat: 'dd/mm/yy' }).val();
+    });
+        $("#DetalleEnvio").click(function () {
+            Fn_Package_Add()
+        });
+        $("#SeleccionarTipoDocumento").change(function () {
+
+            if ($("#SeleccionarTipoDocumento").val() != "0") {
+                $.ajax({
+                    type: "POST",
+                    url: "/EnvioEncomienda/TipoDocumento_GetData",
+                    contentType: "application/json; charset=utf-8",
+                    data: '{"TipoDocumento":"' + $("#SeleccionarTipoDocumento option:selected").text() + '"}',
+                    dataType: "json",
+                    success: function (result, status, xhr) {
+                        var data = JSON.parse(result.Data);
+                        $('#txtTipoDocumento').text(data.TipoDocumento);
+                        $('#txtNdocumentos').val(data.NumDocumento)
+                        $('#txtNSeries').val(data.NumSerie)
+                    },
+                    error: function (xhr, status, error) {
+                        alert("Result: " + status + " " + error + " " + xhr.status + " " + xhr.statusText)
+                    }
+                });
+            } else {
+                alert("Seleccionar un tipo de documento.");
+                $('#txtTipoDocumento').text("");
+                $('#txtNdocumentos').val("");
+                $('#txtNSeries').val("");
+            }
+
+
+    });//btnRegistrarEnvio
+    $("#btnRegistrarEnvio").click(function (e) {
+        e.preventDefault();
+        Fn_Registrar();
+        });
+        $("#ClienteEnvio").click(function () {
+            $("#cEnvio").load('@Url.Action("ClienteEnvio", "EnvioEncomienda")', {
+                Remitente: $('#txtDniRuc').val()
+            })
+        });
+        $("#ClienteEntrega").click(function () {
+            $("#cEntrega").load('@Url.Action("ClienteEntrega", "EnvioEncomienda")', {
+                Destinatario: $('#txtDniRuc2').val()
+            })
+        });
+    $(document).ready(function () {
+        $("#txtFechaEnvio").datepicker({ dateFormat: 'dd/mm/yy' }).val();
+        $("#aDomicilio").click(function () {
+            if ($("#aDomicilio").is(':checked')) {
+
+                $("#txtDireccion").show("slow");
+                $("#lblDireccion").show("slow");
+                $("#txtDireccion").val("");
+
+            } else {
+                $("#txtDireccion").hide("slow");
+                $("#lblDireccion").hide("slow");
+                $("#txtDireccion").val("SIN DIRECCION");
+            }
+
+        });
+    });
+    function Fn_Registrar() {
+        var lista = [];
+        var repeat = false;
+        if ($('#cboRuta').val() == "") {
+            alert("Elegir ruta.");
+            repeat = true;
+        } else if ($('#txtFechaEnvio').val() == "") {
+            alert("Ingresar fecha de envío.");
+            repeat = true;
+        } else if ($('#txtIdClienteEnvio').val() == "") {
+            alert("Ingresar cliente de envío.");
+            repeat = true;
+        } else if ($('#txtIdClienteEntrega').val() == "") {
+            alert("Ingresar cliente de entrega.");
+            repeat = true;
+        }
+        else if ($('#SeleccionarTipoDocumento').val() == "0") {
+            alert("Seleccionar tipo de documento.");
+            repeat = true;
+        }else if ($('#txtNSeries').val().trim() == "") {
+            alert("Seleccionar tipo de documento.");
+            repeat = true;
+        } else if ($('#txtNdocumentos').val().trim() == "") {
+            alert("Seleccionar tipo de documento.");
+            repeat = true;
+        } else if ($('#txtDireccion').val().trim() == "") {
+            alert("Ingresar una dirección correcta.");
+            repeat = true;
+        }
+        if (repeat) {
+            return;
+        }
+        $('#tbl_Details > tbody  > tr').each(function (index, value) {
+            var data = $(this).find('.css-descrip').text();
+            var peso = $(this).find('.css-peso').text();
+            lista.push({ Descripcion: data, Peso: peso })
+        });
+        var objData =
+            {
+                NumSerie: $('#txtNSeries').val(),
+                NumDocumento: $('#txtNdocumentos').val(),
+                TipoDocumento: $("#SeleccionarTipoDocumento option:selected").text(),
+                Monto: parseFloat($('#txtMontoPagar').val()),
+                DocumentoEnvio: {
+                    Ruta: { IdRuta: parseInt($('#cboRuta').val()) },
+                    ClienteEnvio: { IdCliente: parseInt($('#txtIdClienteEnvio').val()) },
+                    ClienteEntrega: { IdCliente: parseInt($('#txtIdClienteEntrega').val()) },
+                    FechaEnvio: $('#txtFechaEnvio').val(),
+                    ADomicilio: $('#txtDireccion').val(),
+                    detalleEnvio: lista
+                }
+            };
+        //var responseData = fn_jsonreplace(objData);
+        $.ajax({
+            type: "POST",
+            url: "/EnvioEncomienda/EnvioEncomienda_Save",
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify({ documentoPago: objData }) ,
+            dataType: "json",
+            success: function (result, status, xhr) {
+                if (result.result == "Ok") {
+                    alert(result.Message);
+                    location.reload();
+                } else {
+                    alert(result.Message);
+                }
+            },
+            error: function (xhr, status, error) {
+                alert("Result: " + status + " " + error + " " + xhr.status + " " + xhr.statusText)
+            }
+        });
+    }
+    function fn_jsonreplace(data) {
+
+        var temp = "";
+        for (var i = 0; i < data.length; i++) {
+            if (data[i] === '"')
+                temp = temp + "'";
+            else
+                temp = temp + data[i];
+
+        }
+        return temp;
+    }
+    function Fn_Package_Add() {
+        var repeat = false;
+        var subTotal = 0;
+        $('#tbl_Details > tbody  > tr').each(function (index, value) {
+            var data = $(this).find('.css-descrip').text();
+            subTotal += parseFloat($(this).find('.css-subtotal').text())
+            if (data.trim() == $('#txtDescripcion').val().trim()) {
+                alert("Ya existe paquetes con el mismo nombre");
+                repeat=true;
+            }
+        });
+        if ($('#cboRuta').val() == "") {
+            alert("Elegir ruta para realizar los calculos.");
+            repeat = true;
+        } else if ($('#txtDescripcion').val().trim() == "") {
+            alert("Ingresar descripción del paquete.");
+            repeat = true;
+        } else if ($('#txtPeso').val().trim() == "") {
+            alert("Ingresar peso del paquete para realizar los calculos.");
+            repeat = true;
+        }
+        if (repeat) { return;}
+        $.ajax({
+            type: "POST",
+            url: "/EnvioEncomienda/Package_Add",
+            contentType: "application/json; charset=utf-8",
+            data: '{"Peso":' + $('#txtPeso').val() + ', "idRuta":' + $('#cboRuta').val() + ', "subTotal":' + subTotal + '}',
+            dataType: "json",
+            success: function (result, status, xhr) {
+                var data = JSON.parse(result.Data);//
+                var count = $('#tbl_Details > tbody  > tr').length+1;
+                $("#tbl_Details").append("<tr><td>" + count + "</td><td class='css-descrip'>" + $('#txtDescripcion').val() + "</td><td class='css-peso'>" + $('#txtPeso').val() + "</td><td>" + data.PrecioGramo.toFixed(2) + "</td><td class='css-subtotal'>" + result.calcularPrecio.toFixed(2)+ "</td></tr>");
+                $('#txtSubTotal').val(data.SubTotal.toFixed(2));
+                $('#txtDescuento').val(data.Descuento.toFixed(2));
+                $('#txtMontoPagar').val(result.montoTotal.toFixed(2));
+            },
+            error: function (xhr, status, error) {
+                alert("Result: " + status + " " + error + " " + xhr.status + " " + xhr.statusText)
+            }
+        });
+        }
+    function solonumeros(e) {
+        key = e.keyCode || e.which;
+        teclado = String.fromCharCode(key);
+        numero = "0123456789";
+        especiales = "8-37-38-46";//array
+        teclado_especial = false;
+        for (var i in especiales) {
+            if(key==especiales[i]){
+                teclado_especial = true;
+            }
+        }
+        if(numero.indexOf(teclado)==-1 && !teclado_especial){
+            return false;
+        }
+
+    }
+    function soloFechas(e) {
+        key = e.keyCode || e.which;
+        teclado = String.fromCharCode(key);
+        numero = "0123456789/";
+        especiales = "8-37-38-46";//array
+        teclado_especial = false;
+        for (var i in especiales) {
+            if (key == especiales[i]) {
+                teclado_especial = true;
+            }
+        }
+        if (numero.indexOf(teclado) == -1 && !teclado_especial) {
+            return false;
+        }
+
+    }
+
+</script>

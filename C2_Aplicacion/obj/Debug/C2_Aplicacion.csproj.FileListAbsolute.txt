@@ -1,0 +1,153 @@
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.dll
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.pdb
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.dll
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.dll
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.pdb
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.pdb
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.csprojResolveAssemblyReference.cache
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.dll
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.pdb
+H:\USB\calidad\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.dll
+H:\USB\calidad\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.pdb
+H:\USB\calidad\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.dll
+H:\USB\calidad\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.dll
+H:\USB\calidad\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.pdb
+H:\USB\calidad\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.pdb
+H:\USB\calidad\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.csprojResolveAssemblyReference.cache
+H:\USB\calidad\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.dll
+H:\USB\calidad\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.pdb
+M:\USB\calidad\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.dll
+M:\USB\calidad\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.pdb
+M:\USB\calidad\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.dll
+M:\USB\calidad\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.dll
+M:\USB\calidad\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.pdb
+M:\USB\calidad\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.pdb
+M:\USB\calidad\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.csprojResolveAssemblyReference.cache
+M:\USB\calidad\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.dll
+M:\USB\calidad\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.pdb
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.dll
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.pdb
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.dll
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.dll
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.pdb
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.pdb
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.csprojResolveAssemblyReference.cache
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.dll
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.pdb
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.dll
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.pdb
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.dll
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.dll
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.pdb
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.pdb
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.csprojResolveAssemblyReference.cache
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.dll
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.pdb
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.dll
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.pdb
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.dll
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.dll
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.pdb
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.pdb
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.csprojResolveAssemblyReference.cache
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.dll
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.pdb
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.dll
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.pdb
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.dll
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.dll
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.pdb
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.pdb
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.csprojResolveAssemblyReference.cache
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.dll
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.pdb
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.dll
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.pdb
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.dll
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.dll
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.pdb
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.pdb
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.csprojResolveAssemblyReference.cache
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.dll
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.pdb
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.dll
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.pdb
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.dll
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.dll
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.pdb
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.pdb
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.csprojResolveAssemblyReference.cache
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.dll
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.pdb
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.dll
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C2_Aplicacion.pdb
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.dll
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.dll
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C3_Dominio.pdb
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C2_Aplicacion\bin\Debug\C4_Persistencia.pdb
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.csprojResolveAssemblyReference.cache
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.dll
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C2_Aplicacion\obj\Debug\C2_Aplicacion.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C2_Aplicacion.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C2_Aplicacion.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C3_Dominio.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C4_Persistencia.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C3_Dominio.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C4_Persistencia.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.csprojResolveAssemblyReference.cache
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.pdb
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C2_Aplicacion.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C2_Aplicacion.pdb
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C3_Dominio.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C4_Persistencia.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C3_Dominio.pdb
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C4_Persistencia.pdb
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C4_Persistencia.dll.config
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.csprojAssemblyReference.cache
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.csproj.CopyComplete
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.pdb
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C2_Aplicacion.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C2_Aplicacion.pdb
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C3_Dominio.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C4_Persistencia.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C3_Dominio.pdb
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C4_Persistencia.pdb
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.csprojResolveAssemblyReference.cache
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.pdb
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C2_Aplicacion.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C2_Aplicacion.pdb
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C3_Dominio.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C4_Persistencia.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C3_Dominio.pdb
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C4_Persistencia.pdb
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C4_Persistencia.dll.config
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.csprojAssemblyReference.cache
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.csproj.CopyComplete
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.pdb
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C2_Aplicacion.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C2_Aplicacion.pdb
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C3_Dominio.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C4_Persistencia.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C3_Dominio.pdb
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C4_Persistencia.pdb
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.csprojResolveAssemblyReference.cache
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.pdb
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C2_Aplicacion.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C2_Aplicacion.pdb
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C3_Dominio.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C4_Persistencia.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C3_Dominio.pdb
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C4_Persistencia.pdb
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\bin\Debug\C4_Persistencia.dll.config
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.csprojAssemblyReference.cache
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.csproj.CopyComplete
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C2_Aplicacion\obj\Debug\C2_Aplicacion.pdb

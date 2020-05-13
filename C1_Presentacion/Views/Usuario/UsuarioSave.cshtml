@@ -1,0 +1,83 @@
+﻿@model C3_Dominio.Entidades.Usuario
+@{
+    ViewBag.Title = "UsuarioSave";
+    Layout = "~/Views/MasterPrincipal.cshtml";
+}
+
+<h2>UsuarioSave</h2>
+<br />
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    if (ViewBag.Message != null)
+    {
+        <div style="padding:5px; width:300px;color:red; border:1px solid green">
+            @ViewBag.Message
+        </div>
+    }
+    <form id="frm" method="post">
+        <fieldset>
+            <table>
+                <tr>
+                    <td>Nombres :</td>
+                    <td>
+                        <input name="txtNombreUsuario" type="text" maxlength="25" id="txtNombreUsuario" value="@Html.DisplayFor(model => model.NombreUsuario)" onpaste="return false" placeholder="Ingresa Razon Social" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Apellidos :</td>
+                    <td>
+                        <input name="txtApellidos" type="text" maxlength="25" id="txtApellidos" value="@Html.DisplayFor(model => model.ApellidosUsuario)" placeholder="Ingresa Nombres" />
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>DNI :</td>
+                    <td>
+                        <input name="txtDni" type="text" maxlength="25" id="txtDni" value="@Html.DisplayFor(model => model.DNI)" placeholder="Ingresa Nombres" />
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Usuario :</td>
+                    <td>
+                        <input name="txtUsuario" id="txtUsuario" type="text" value="@Html.DisplayFor(model => model.Usuarios)" maxlength="25" placeholder="Ingresa Apellido Paterno" />
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Clave :</td>
+                    <td>
+                        <input name="txtClave" id="txtClave" type="text" maxlength="25" value="@Html.DisplayFor(model => model.Clave)" placeholder="Ingresa Apellido Materno" />
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Direccion :</td>
+                    <td>  <input name="txtDireccion" type="text" maxlength="50" value="@Html.DisplayFor(model => model.Direccion)" placeholder="Ingresa Direccion" /></td>
+                </tr>
+                <tr>
+                    <td>Telefono :</td>
+                    <td>  <input name="txtTelefono" type="text" maxlength="20" placeholder="Ingresa Nro. Telefono" value="@Html.DisplayFor(model => model.Telefono)" onpaste="return false" onkeypress="return solonumerosTelefono(event)" /></td>
+                </tr>
+                <tr>
+                    <td>Tipo Usuario:</td>
+                    <td>
+                        @Html.DropDownListFor(model => model.tipoUsuario.id, new SelectList(ViewBag.ListTipoUsuario, "id", "Nombre"))
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sucursal:</td>
+                    <td>
+                        @Html.DropDownListFor(model => model.sucursal.IdSucursal, new SelectList(ViewBag.ListSucursal, "idSucursal", "Ciudad"))
+                    </td>
+                </tr>
+                <tr>
+                    <td>  <input type="submit" value="REGISTRAR" /></td>
+                    <td>  @Html.ActionLink("LISTADO DE USUARIOS", "ListaUsuario")</td>
+                </tr>
+            </table>
+        </fieldset>
+        <h3 align="center" style="color:red">@ViewBag.mensaje</h3>
+    </form>
+}

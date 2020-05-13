@@ -1,0 +1,98 @@
+﻿@model IEnumerable<C3_Dominio.Entidades.Cliente>
+@{
+    ViewBag.Title = "RegistroCliente";
+    Layout = "~/Views/MasterPrincipal.cshtml";
+}
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<br /><br />
+<table>
+    <tr>
+        <td>
+            <form method="post">
+                <fieldset>
+                    <table>
+                        <tr>
+                            <td>Buscar por Numero Documento :</td>
+                            <td><input name="txtDniRuc" type="text" maxlength="11" id="txtDniRuc" onpaste="return false" onkeypress="return solonumeros(event)" /></td>
+                            <td><input type="submit" value="BUSCAR CLIENTE" name="btnBuscar" /></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+        </td>
+        <td>
+            <form action="NuevoCliente" method="get">
+                <input type="submit" value="NUEVO CLIENTE" name="btnNuevo" />
+
+            </form>
+        </td>
+    </tr>
+</table>
+<h3 align="center" style="color:red">@ViewBag.mensaje</h3>
+
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">
+                Clientes
+            </header>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Razon Social</th>
+                            <th>Nombre</th>
+                           <th>Ap.Paterno</th>
+                            <th>Ap.Materno</th>
+                            <th>Tipo Documento</th>
+                            <th>N° Documento</th>
+                            <th>Dirección</th>
+                            <th>Teléfono</th>
+                            
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var m in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => m.RazonSocial)</td>
+                                <td>@Html.DisplayFor(modelItem=>m.NombreCliente)</td>
+                                <td>@Html.DisplayFor(modelItem => m.ApellidoPaternoCliente)</td>
+                                <td>@Html.DisplayFor(modelItem => m.ApellidoMaternoCliente)</td>
+                                <td>@Html.DisplayFor(modelItem => m.TipoDocumento)</td>
+                                <td>@Html.DisplayFor(modelItem => m.NumeroDocumento)</td>
+                                <td>@Html.DisplayFor(modelItem => m.Direccion)</td>
+                                <td>@Html.DisplayFor(modelItem => m.Telefono)</td>
+                                <td>@Html.ActionLink("Editar", "modificarCliente", new { idCliente = m.IdCliente })</td>
+                                <td>@Html.ActionLink("Eliminar", "eliminarCliente", new { idCliente = m.IdCliente })</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+    </div>
+</div>
+
+<script type="text/javascript">
+   
+    function solonumeros(e) {
+        key = e.keyCode || e.which;
+        teclado = String.fromCharCode(key);
+        numero = "0123456789";
+        especiales = "8-37-38-46";//array
+        teclado_especial = false;
+        for (var i in especiales) {
+            if(key==especiales[i]){
+                teclado_especial = true;
+            }
+        }
+        if(numero.indexOf(teclado)==-1 && !teclado_especial){
+            return false;
+        }
+
+    }
+   
+</script>

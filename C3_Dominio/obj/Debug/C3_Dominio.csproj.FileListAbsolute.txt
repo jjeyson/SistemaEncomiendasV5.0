@@ -1,0 +1,76 @@
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.dll
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.pdb
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.dll
+C:\Users\nickyalejandro\Documents\Visual Studio 2013\Projects\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.pdb
+H:\USB\calidad\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.dll
+H:\USB\calidad\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.pdb
+H:\USB\calidad\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.dll
+H:\USB\calidad\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.pdb
+M:\USB\calidad\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.dll
+M:\USB\calidad\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.pdb
+M:\USB\calidad\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.dll
+M:\USB\calidad\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.pdb
+M:\USB\calidad\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.csprojResolveAssemblyReference.cache
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.dll
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.pdb
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.csprojResolveAssemblyReference.cache
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.dll
+E:\UPN\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.pdb
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.dll
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.pdb
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.dll
+D:\PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.pdb
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.dll
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.pdb
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.csprojResolveAssemblyReference.cache
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.dll
+M:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.pdb
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.dll
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.pdb
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.csprojResolveAssemblyReference.cache
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.dll
+H:\ \PROYECTO CALIDAD\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.pdb
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.dll
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.pdb
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.csprojResolveAssemblyReference.cache
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.dll
+M:\Archivos\T2_Calidad de Pruebas de Software\T2_Calidad de Pruebas de Software\Implementacion\Software\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.pdb
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.dll
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.pdb
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.dll
+H:\Archivos\Guardar\T2_Calidad de Pruebas de Software\T3_Calidad de Pruebas de Software\Implementacion\Software\Ultima_Version\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.pdb
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.dll
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C3_Dominio\bin\Debug\C3_Dominio.pdb
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.csprojResolveAssemblyReference.cache
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.dll
+C:\Users\nickyalejandro\Documents\Sistema_Envio_Encomiendas\C3_Dominio\obj\Debug\C3_Dominio.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C3_Dominio\bin\Debug\C3_Dominio.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C3_Dominio\bin\Debug\C3_Dominio.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C3_Dominio\obj\Debug\C3_Dominio.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C3_Dominio\obj\Debug\C3_Dominio.pdb
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C3_Dominio\bin\Debug\C3_Dominio.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C3_Dominio\bin\Debug\C3_Dominio.pdb
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C3_Dominio\obj\Debug\C3_Dominio.csprojAssemblyReference.cache
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C3_Dominio\obj\Debug\C3_Dominio.csproj.CoreCompileInputs.cache
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C3_Dominio\obj\Debug\C3_Dominio.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C3_Dominio\obj\Debug\C3_Dominio.pdb
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C3_Dominio\bin\Debug\C3_Dominio.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C3_Dominio\bin\Debug\C3_Dominio.pdb
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C3_Dominio\obj\Debug\C3_Dominio.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C3_Dominio\obj\Debug\C3_Dominio.pdb
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C3_Dominio\bin\Debug\C3_Dominio.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C3_Dominio\bin\Debug\C3_Dominio.pdb
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C3_Dominio\obj\Debug\C3_Dominio.csprojAssemblyReference.cache
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C3_Dominio\obj\Debug\C3_Dominio.csproj.CoreCompileInputs.cache
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C3_Dominio\obj\Debug\C3_Dominio.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C3_Dominio\obj\Debug\C3_Dominio.pdb
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C3_Dominio\bin\Debug\C3_Dominio.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C3_Dominio\bin\Debug\C3_Dominio.pdb
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C3_Dominio\obj\Debug\C3_Dominio.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C3_Dominio\obj\Debug\C3_Dominio.pdb
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C3_Dominio\bin\Debug\C3_Dominio.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C3_Dominio\bin\Debug\C3_Dominio.pdb
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C3_Dominio\obj\Debug\C3_Dominio.csprojAssemblyReference.cache
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C3_Dominio\obj\Debug\C3_Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C3_Dominio\obj\Debug\C3_Dominio.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C3_Dominio\obj\Debug\C3_Dominio.pdb

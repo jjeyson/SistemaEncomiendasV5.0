@@ -1,0 +1,821 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1AA2FA1E-DB84-4524-B806-95E5436BD937}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>C1_Presentacion</RootNamespace>
+    <AssemblyName>C1_Presentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress>
+    </Use64BitIISExpress>
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.0.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.1\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.0.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <Private>True</Private>
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Bootstrap\assets\ckeditor\samples\plugins\htmlwriter\assets\outputforflash\" />
+    <Folder Include="Bootstrap\assets\jquery-file-upload\server\node\public\files\thumbnail\" />
+    <Folder Include="Bootstrap\assets\jquery-file-upload\server\php\files\thumbnail\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ClienteController.cs" />
+    <Compile Include="Controllers\EnvioEncomiendaController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InicioSesionController.cs" />
+    <Compile Include="Controllers\RecepcionEncomiendaController.cs" />
+    <Compile Include="Controllers\ReporteEncomiendasController.cs" />
+    <Compile Include="Controllers\UsuarioController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Bootstrap\assets\chart-master\Chart.js" />
+    <Content Include="Bootstrap\assets\chart-master\Chart.min.js" />
+    <Content Include="Bootstrap\assets\chart-master\docs\Chart.js" />
+    <Content Include="Bootstrap\assets\chart-master\docs\index.html" />
+    <Content Include="Bootstrap\assets\chart-master\docs\prettify.css" />
+    <Content Include="Bootstrap\assets\chart-master\docs\prettify.js" />
+    <Content Include="Bootstrap\assets\chart-master\docs\styles.css" />
+    <Content Include="Bootstrap\assets\chart-master\samples\bar.html" />
+    <Content Include="Bootstrap\assets\chart-master\samples\doughnut.html" />
+    <Content Include="Bootstrap\assets\chart-master\samples\line.html" />
+    <Content Include="Bootstrap\assets\chart-master\samples\pie.html" />
+    <Content Include="Bootstrap\assets\chart-master\samples\polarArea.html" />
+    <Content Include="Bootstrap\assets\chart-master\samples\radar.html" />
+    <Content Include="Bootstrap\assets\chart-master\samples\sixup.html" />
+    <Content Include="Bootstrap\assets\chart-master\site\assets\6charts.png" />
+    <Content Include="Bootstrap\assets\chart-master\site\assets\Chart.js" />
+    <Content Include="Bootstrap\assets\chart-master\site\assets\effects.js" />
+    <Content Include="Bootstrap\assets\chart-master\site\assets\excanvas.js" />
+    <Content Include="Bootstrap\assets\chart-master\site\assets\html.png" />
+    <Content Include="Bootstrap\assets\chart-master\site\assets\simple.png" />
+    <Content Include="Bootstrap\assets\chart-master\site\index.html" />
+    <Content Include="Bootstrap\assets\chart-master\site\styles.css" />
+    <Content Include="Bootstrap\assets\ckeditor\build-config.js" />
+    <Content Include="Bootstrap\assets\ckeditor\ckeditor.js" />
+    <Content Include="Bootstrap\assets\ckeditor\config.js" />
+    <Content Include="Bootstrap\assets\ckeditor\contents.css" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\af.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\ar.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\bg.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\bn.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\bs.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\ca.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\cs.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\cy.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\da.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\de.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\el.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\en-au.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\en-ca.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\en-gb.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\en.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\eo.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\es.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\et.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\eu.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\fa.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\fi.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\fo.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\fr-ca.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\fr.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\gl.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\gu.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\he.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\hi.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\hr.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\hu.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\is.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\it.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\ja.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\ka.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\km.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\ko.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\ku.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\lt.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\lv.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\mk.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\mn.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\ms.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\nb.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\nl.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\no.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\pl.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\pt-br.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\pt.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\ro.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\ru.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\sk.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\sl.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\sr-latn.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\sr.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\sv.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\th.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\tr.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\ug.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\uk.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\vi.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\zh-cn.js" />
+    <Content Include="Bootstrap\assets\ckeditor\lang\zh.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\a11yhelp.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\ar.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\bg.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\ca.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\cs.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\cy.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\da.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\de.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\el.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\en.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\eo.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\es.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\et.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\fa.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\fi.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\fr.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\gu.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\he.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\hi.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\hr.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\hu.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\it.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\ja.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\ku.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\lt.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\lv.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\mk.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\mn.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\nb.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\nl.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\no.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\pl.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\pt-br.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\pt.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\ro.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\ru.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\sk.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\sl.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\sv.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\tr.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\ug.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\uk.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\vi.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\zh-cn.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\about\dialogs\about.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\about\dialogs\logo_ckeditor.png" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\clipboard\dialogs\paste.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\dialog\dialogDefinition.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\fakeobjects\images\spacer.gif" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\icons.png" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\image\dialogs\image.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\image\images\noimage.png" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\link\dialogs\anchor.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\link\dialogs\link.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\link\images\anchor.png" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\magicline\images\icon.png" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\pastefromword\filter\default.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\scayt\dialogs\options.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\scayt\dialogs\toolbar.css" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\ca.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\cs.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\cy.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\de.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\el.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\en.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\eo.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\et.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\fa.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\fi.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\fr.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\he.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\hr.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\it.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\ku.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\lv.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\nb.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\nl.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\no.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\pt-br.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\sk.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\sv.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\tr.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\ug.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\lang\zh-cn.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\specialchar\dialogs\specialchar.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\tabletools\dialogs\tableCell.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\table\dialogs\table.js" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\wsc\dialogs\ciframe.html" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\wsc\dialogs\tmpFrameset.html" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\wsc\dialogs\wsc.css" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\wsc\dialogs\wsc.js" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\ajax.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\api.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\appendto.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\assets\inlineall\logo.png" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\assets\outputxhtml\outputxhtml.css" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\assets\sample.css" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\assets\sample.jpg" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\assets\uilanguages\languages.js" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\divreplace.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\index.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\inlineall.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\inlinebycode.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\plugins\dialog\assets\my_dialog.js" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\plugins\dialog\dialog.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\plugins\enterkey\enterkey.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\plugins\htmlwriter\outputforflash.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\plugins\htmlwriter\outputhtml.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\plugins\magicline\magicline.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\plugins\toolbar\toolbar.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\plugins\wysiwygarea\fullpage.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\readonly.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\replacebyclass.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\replacebycode.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\sample.css" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\sample.js" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\tabindex.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\uicolor.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\uilanguages.html" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\xhtmlstyle.html" />
+    <Content Include="Bootstrap\assets\ckeditor\skins\moono\dialog.css" />
+    <Content Include="Bootstrap\assets\ckeditor\skins\moono\dialog_ie.css" />
+    <Content Include="Bootstrap\assets\ckeditor\skins\moono\dialog_ie7.css" />
+    <Content Include="Bootstrap\assets\ckeditor\skins\moono\dialog_ie8.css" />
+    <Content Include="Bootstrap\assets\ckeditor\skins\moono\dialog_iequirks.css" />
+    <Content Include="Bootstrap\assets\ckeditor\skins\moono\dialog_opera.css" />
+    <Content Include="Bootstrap\assets\ckeditor\skins\moono\editor.css" />
+    <Content Include="Bootstrap\assets\ckeditor\skins\moono\editor_gecko.css" />
+    <Content Include="Bootstrap\assets\ckeditor\skins\moono\editor_ie.css" />
+    <Content Include="Bootstrap\assets\ckeditor\skins\moono\editor_ie7.css" />
+    <Content Include="Bootstrap\assets\ckeditor\skins\moono\editor_ie8.css" />
+    <Content Include="Bootstrap\assets\ckeditor\skins\moono\editor_iequirks.css" />
+    <Content Include="Bootstrap\assets\ckeditor\skins\moono\icons.png" />
+    <Content Include="Bootstrap\assets\ckeditor\skins\moono\images\arrow.png" />
+    <Content Include="Bootstrap\assets\ckeditor\skins\moono\images\close.png" />
+    <Content Include="Bootstrap\assets\ckeditor\skins\moono\images\mini.png" />
+    <Content Include="Bootstrap\assets\ckeditor\styles.js" />
+    <Content Include="Bootstrap\assets\fullcalendar\changelog.txt" />
+    <Content Include="Bootstrap\assets\fullcalendar\demos\agenda-views.html" />
+    <Content Include="Bootstrap\assets\fullcalendar\demos\basic-views.html" />
+    <Content Include="Bootstrap\assets\fullcalendar\demos\cupertino\images\ui-icons_2694e8_256x240.png" />
+    <Content Include="Bootstrap\assets\fullcalendar\demos\cupertino\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Bootstrap\assets\fullcalendar\demos\cupertino\images\ui-icons_3d80b3_256x240.png" />
+    <Content Include="Bootstrap\assets\fullcalendar\demos\cupertino\images\ui-icons_72a7cf_256x240.png" />
+    <Content Include="Bootstrap\assets\fullcalendar\demos\cupertino\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Bootstrap\assets\fullcalendar\demos\cupertino\theme.css" />
+    <Content Include="Bootstrap\assets\fullcalendar\demos\default.html" />
+    <Content Include="Bootstrap\assets\fullcalendar\demos\external-dragging.html" />
+    <Content Include="Bootstrap\assets\fullcalendar\demos\gcal.html" />
+    <Content Include="Bootstrap\assets\fullcalendar\demos\json.html" />
+    <Content Include="Bootstrap\assets\fullcalendar\demos\selectable.html" />
+    <Content Include="Bootstrap\assets\fullcalendar\demos\theme.html" />
+    <Content Include="Bootstrap\assets\fullcalendar\fullcalendar\bootstrap-fullcalendar.css" />
+    <Content Include="Bootstrap\assets\fullcalendar\fullcalendar\fullcalendar.css" />
+    <Content Include="Bootstrap\assets\fullcalendar\fullcalendar\fullcalendar.js" />
+    <Content Include="Bootstrap\assets\fullcalendar\fullcalendar\fullcalendar.min.js" />
+    <Content Include="Bootstrap\assets\fullcalendar\fullcalendar\fullcalendar.print.css" />
+    <Content Include="Bootstrap\assets\fullcalendar\fullcalendar\gcal.js" />
+    <Content Include="Bootstrap\assets\fullcalendar\GPL-LICENSE.txt" />
+    <Content Include="Bootstrap\assets\fullcalendar\jquery\jquery-1.8.1.min.js" />
+    <Content Include="Bootstrap\assets\fullcalendar\jquery\jquery-ui-1.8.23.custom.min.js" />
+    <Content Include="Bootstrap\assets\fullcalendar\MIT-LICENSE.txt" />
+    <Content Include="Bootstrap\assets\jquery-easy-pie-chart\examples\excanvas.js" />
+    <Content Include="Bootstrap\assets\jquery-easy-pie-chart\examples\index.html" />
+    <Content Include="Bootstrap\assets\jquery-easy-pie-chart\examples\style.css" />
+    <Content Include="Bootstrap\assets\jquery-easy-pie-chart\img\easy-pie-chart.png" />
+    <Content Include="Bootstrap\assets\jquery-easy-pie-chart\jquery.easy-pie-chart.css" />
+    <Content Include="Bootstrap\assets\jquery-easy-pie-chart\jquery.easy-pie-chart.js" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\cors\postmessage.html" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\cors\result.html" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\css\jquery.fileupload-ui-noscript.css" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\css\jquery.fileupload-ui.css" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\css\style.css" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\img\loading.gif" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\img\progressbar.gif" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\index.html" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\js\cors\jquery.postmessage-transport.js" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\js\cors\jquery.xdr-transport.js" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\js\jquery.fileupload-fp.js" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\js\jquery.fileupload-ui.js" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\js\jquery.fileupload.js" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\js\jquery.iframe-transport.js" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\js\main.js" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\js\vendor\canvas-to-blob.min.js" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\js\vendor\jquery.ui.widget.js" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\js\vendor\load-image.min.js" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\js\vendor\tmpl.min.js" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\server\gae-go\static\favicon.ico" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\server\gae-go\static\robots.txt" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\server\gae-python\static\favicon.ico" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\server\gae-python\static\robots.txt" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\server\node\server.js" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\server\php\files\style-responsive.css" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\test\index.html" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\test\test.js" />
+    <Content Include="Bootstrap\assets\jquery-knob\index.html" />
+    <Content Include="Bootstrap\assets\jquery-knob\js\jquery.knob.js" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\animated-overlay.gif" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-icons_222222_256x240.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-icons_454545_256x240.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-icons_888888_256x240.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Bootstrap\assets\jquery-ui\jquery-ui-1.10.1.custom.css" />
+    <Content Include="Bootstrap\assets\jquery-ui\jquery-ui-1.10.1.custom.min.css" />
+    <Content Include="Bootstrap\assets\jquery-ui\jquery-ui-1.10.1.custom.min.js" />
+    <Content Include="Bootstrap\assets\jquery-ui\jquery-ui-1.10.2.custom.min.js" />
+    <Content Include="Bootstrap\assets\jquery-ui\jquery-ui-1.9.2.custom.min.js" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\area-as-line.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\area.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\bar-colors.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\bar-no-axes.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\bar.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\days.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\decimal-custom-hover.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\diagonal-xlabels-bar.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\diagonal-xlabels.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\donut-colors.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\donut-formatter.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\donut.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\dst.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\events.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\goals.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\lib\example.css" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\lib\example.js" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\lib\prettify.css" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\lib\prettify.js" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\months-no-smooth.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\negative.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\no-grid.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\non-continuous.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\non-date.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\quarters.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\stacked_bars.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\timestamps.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\updating.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\weeks.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\years.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\examples\_template.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\grunt.js" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\morris.css" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\morris.js" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\morris.min.js" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\raphael-min.js" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\specs.html" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\vendor\chai-1.3.0.js" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\vendor\chai-jquery-1.1.0.js" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\vendor\jquery-1.8.2.min.js" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\vendor\mocha-1.6.0.css" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\vendor\mocha-1.6.0.js" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\vendor\raphael-2.1.0.min.js" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\vendor\sinon-1.5.0.js" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\vendor\sinon-chai-2.1.2.js" />
+    <Content Include="Bootstrap\css\bootstrap-theme.css" />
+    <Content Include="Bootstrap\css\bootstrap.min.css" />
+    <Content Include="Bootstrap\css\elegant-icons-style.css" />
+    <Content Include="Bootstrap\css\font-awesome.css" />
+    <Content Include="Bootstrap\css\font-awesome.min.css" />
+    <Content Include="Bootstrap\css\fullcalendar.css" />
+    <Content Include="Bootstrap\css\jquery-jvectormap-1.2.2.css" />
+    <Content Include="Bootstrap\css\jquery-ui-1.10.4.min.css" />
+    <Content Include="Bootstrap\css\line-icons.css" />
+    <Content Include="Bootstrap\css\owl.carousel.css" />
+    <Content Include="Bootstrap\css\style-responsive.css" />
+    <Content Include="Bootstrap\css\style.css" />
+    <Content Include="Bootstrap\css\widgets.css" />
+    <Content Include="Bootstrap\css\xcharts.min.css" />
+    <Content Include="Bootstrap\fonts\ElegantIcons.svg" />
+    <Content Include="Bootstrap\fonts\fontawesome-webfont.svg" />
+    <Content Include="Bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Bootstrap\img\arrow-up.png" />
+    <Content Include="Bootstrap\img\avatar-mini.jpg" />
+    <Content Include="Bootstrap\img\avatar-mini2.jpg" />
+    <Content Include="Bootstrap\img\avatar-mini3.jpg" />
+    <Content Include="Bootstrap\img\avatar-mini4.jpg" />
+    <Content Include="Bootstrap\img\avatar1.jpg" />
+    <Content Include="Bootstrap\img\avatar1_small.jpg" />
+    <Content Include="Bootstrap\img\bg-1.jpg" />
+    <Content Include="Bootstrap\img\chart-texture.jpg" />
+    <Content Include="Bootstrap\img\chat-avatar.jpg" />
+    <Content Include="Bootstrap\img\chat-avatar2.jpg" />
+    <Content Include="Bootstrap\img\customSelect-arrow.gif" />
+    <Content Include="Bootstrap\img\geekslabs.png" />
+    <Content Include="Bootstrap\img\Germany.png" />
+    <Content Include="Bootstrap\img\icons\line-icon-c.png" />
+    <Content Include="Bootstrap\img\icons\line-icon-hover.png" />
+    <Content Include="Bootstrap\img\icons\line-icon.png" />
+    <Content Include="Bootstrap\img\icons\search-line-icon.png" />
+    <Content Include="Bootstrap\img\icons\social.png" />
+    <Content Include="Bootstrap\img\icons\weather-hover.png" />
+    <Content Include="Bootstrap\img\icons\weather.png" />
+    <Content Include="Bootstrap\img\India.png" />
+    <Content Include="Bootstrap\img\left-arrow.png" />
+    <Content Include="Bootstrap\img\logo-big.png" />
+    <Content Include="Bootstrap\img\mail-avatar.jpg" />
+    <Content Include="Bootstrap\img\profile-avatar.jpg" />
+    <Content Include="Bootstrap\img\profile-widget-avatar.jpg" />
+    <Content Include="Bootstrap\img\right-arrow.png" />
+    <Content Include="Bootstrap\img\Russia.png" />
+    <Content Include="Bootstrap\img\sample-img-1.jpg" />
+    <Content Include="Bootstrap\img\sample-img-2.png" />
+    <Content Include="Bootstrap\img\sample-img-3.png" />
+    <Content Include="Bootstrap\img\search-icon.jpg" />
+    <Content Include="Bootstrap\img\Spain.png" />
+    <Content Include="Bootstrap\img\user.jpg" />
+    <Content Include="Bootstrap\img\user22.png" />
+    <Content Include="Bootstrap\js\additional-methods.min.js" />
+    <Content Include="Bootstrap\js\bootstrap-switch.js" />
+    <Content Include="Bootstrap\js\bootstrap-wysiwyg-custom.js" />
+    <Content Include="Bootstrap\js\bootstrap-wysiwyg.js" />
+    <Content Include="Bootstrap\js\bootstrap.js" />
+    <Content Include="Bootstrap\js\bootstrap.min.js" />
+    <Content Include="Bootstrap\js\calendar-custom.js" />
+    <Content Include="Bootstrap\js\chartjs-custom.js" />
+    <Content Include="Bootstrap\js\charts-flot.js" />
+    <Content Include="Bootstrap\js\charts-other.js" />
+    <Content Include="Bootstrap\js\charts-xcharts.js" />
+    <Content Include="Bootstrap\js\charts.js" />
+    <Content Include="Bootstrap\js\dynamic-table.js" />
+    <Content Include="Bootstrap\js\easy-pie-chart.js" />
+    <Content Include="Bootstrap\js\excanvas.min.js" />
+    <Content Include="Bootstrap\js\form-component.js" />
+    <Content Include="Bootstrap\js\form-validation-script.js" />
+    <Content Include="Bootstrap\js\fullcalendar.js" />
+    <Content Include="Bootstrap\js\fullcalendar.min.js" />
+    <Content Include="Bootstrap\js\ga.js" />
+    <Content Include="Bootstrap\js\gdp-data.js" />
+    <Content Include="Bootstrap\js\gritter.js" />
+    <Content Include="Bootstrap\js\html5shiv.js" />
+    <Content Include="Bootstrap\js\index.js" />
+    <Content Include="Bootstrap\js\jquery-1.11.0.js" />
+    <Content Include="Bootstrap\js\jquery-1.8.3.min.js" />
+    <Content Include="Bootstrap\js\jquery-jvectormap-1.2.2.min.js" />
+    <Content Include="Bootstrap\js\jquery-jvectormap-world-mill-en.js" />
+    <Content Include="Bootstrap\js\jquery-ui-1.10.4.min.js" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\external\jquery\jquery.js" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\images\ui-icons_222222_256x240.png" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\index.html" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\jquery-ui.css" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\jquery-ui.js" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\jquery-ui.min.css" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\jquery-ui.min.js" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\jquery-ui.structure.css" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\jquery-ui.structure.min.css" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\jquery-ui.theme.css" />
+    <Content Include="Bootstrap\js\jquery-ui-1.11.2\jquery-ui.theme.min.css" />
+    <Content Include="Bootstrap\js\jquery-ui-1.9.2.custom.min.js" />
+    <Content Include="Bootstrap\js\jquery.autosize.min.js" />
+    <Content Include="Bootstrap\js\jquery.customSelect.min.js" />
+    <Content Include="Bootstrap\js\jquery.flot.pie.js" />
+    <Content Include="Bootstrap\js\jquery.hotkeys.js" />
+    <Content Include="Bootstrap\js\jquery.js" />
+    <Content Include="Bootstrap\js\jquery.localscroll.js" />
+    <Content Include="Bootstrap\js\jquery.nicescroll.js" />
+    <Content Include="Bootstrap\js\jquery.placeholder.min.js" />
+    <Content Include="Bootstrap\js\jquery.rateit.min.js" />
+    <Content Include="Bootstrap\js\jquery.scrollTo.min.js" />
+    <Content Include="Bootstrap\js\jquery.slimscroll.min.js" />
+    <Content Include="Bootstrap\js\jquery.smartWizard.js" />
+    <Content Include="Bootstrap\js\jquery.sparkline-11.js" />
+    <Content Include="Bootstrap\js\jquery.sparkline.js" />
+    <Content Include="Bootstrap\js\jquery.stepy.js" />
+    <Content Include="Bootstrap\js\jquery.tagsinput.js" />
+    <Content Include="Bootstrap\js\jquery.validate.min.js" />
+    <Content Include="Bootstrap\js\lte-ie7.js" />
+    <Content Include="Bootstrap\js\morris-script.js" />
+    <Content Include="Bootstrap\js\morris.min.js" />
+    <Content Include="Bootstrap\js\owl.carousel.js" />
+    <Content Include="Bootstrap\js\scripts.js" />
+    <Content Include="Bootstrap\js\sliders.js" />
+    <Content Include="Bootstrap\js\sparkline-chart.js" />
+    <Content Include="Bootstrap\js\sparklines.js" />
+    <Content Include="Bootstrap\js\xcharts.min.js" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="ClassDiagram1.cd" />
+    <Content Include="Bootstrap\assets\chart-master\.gitignore" />
+    <Content Include="Bootstrap\assets\chart-master\component.json" />
+    <Content Include="Bootstrap\assets\chart-master\docs\prettify.less" />
+    <Content Include="Bootstrap\assets\chart-master\docs\styles.less" />
+    <Content Include="Bootstrap\assets\chart-master\LICENSE.md" />
+    <Content Include="Bootstrap\assets\chart-master\readme.md" />
+    <Content Include="Bootstrap\assets\ckeditor\CHANGES.md" />
+    <Content Include="Bootstrap\assets\ckeditor\LICENSE.md" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\scayt\LICENSE.md" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\scayt\README.md" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\wsc\LICENSE.md" />
+    <Content Include="Bootstrap\assets\ckeditor\plugins\wsc\README.md" />
+    <Content Include="Bootstrap\assets\ckeditor\README.md" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\assets\posteddata.php" />
+    <Content Include="Bootstrap\assets\ckeditor\samples\sample_posteddata.php" />
+    <Content Include="Bootstrap\assets\ckeditor\skins\moono\readme.md" />
+    <Content Include="Bootstrap\assets\fullcalendar\demos\json-events.php" />
+    <Content Include="Bootstrap\assets\jquery-easy-pie-chart\jquery.easy-pie-chart.coffee" />
+    <Content Include="Bootstrap\assets\jquery-easy-pie-chart\Makefile" />
+    <Content Include="Bootstrap\assets\jquery-easy-pie-chart\Readme.md" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\.gitignore" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\blueimp-file-upload.jquery.json" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\CONTRIBUTING.md" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\package.json" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\README.md" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\server\gae-go\app.yaml" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\server\gae-go\app\main.go" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\server\gae-python\app.yaml" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\server\gae-python\main.py" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\server\node\.gitignore" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\server\node\package.json" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\server\node\tmp\.gitignore" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\server\php\files\.htaccess" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\server\php\index.php" />
+    <Content Include="Bootstrap\assets\jquery-file-upload\server\php\UploadHandler.php" />
+    <Content Include="Bootstrap\assets\jquery-knob\README.md" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\.gitignore" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\.travis.yml" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\component.json" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\less\morris.core.less" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\lib\morris.area.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\lib\morris.bar.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\lib\morris.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\lib\morris.donut.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\lib\morris.grid.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\lib\morris.hover.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\lib\morris.line.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\package.json" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\README.md" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\lib\area\area_spec.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\lib\bar\bar_spec.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\lib\bar\colours.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\lib\commas_spec.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\lib\donut\donut_spec.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\lib\grid\auto_grid_lines_spec.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\lib\grid\set_data_spec.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\lib\grid\y_label_format_spec.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\lib\hover_spec.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\lib\label_series_spec.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\lib\line\line_spec.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\lib\pad_spec.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\lib\parse_time_spec.coffee" />
+    <Content Include="Bootstrap\assets\morris.js-0.4.3\spec\support\placeholder.coffee" />
+    <Content Include="Bootstrap\fonts\ElegantIcons.eot" />
+    <Content Include="Bootstrap\fonts\ElegantIcons.ttf" />
+    <Content Include="Bootstrap\fonts\ElegantIcons.woff" />
+    <Content Include="Bootstrap\fonts\fontawesome-webfont.eot" />
+    <Content Include="Bootstrap\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Bootstrap\fonts\fontawesome-webfont.woff" />
+    <Content Include="Bootstrap\fonts\FontAwesome.otf" />
+    <Content Include="Bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery\jquery-1.11.2.min.js" />
+    <Content Include="Scripts\jquery\jquery.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\MasterPrincipal.cshtml" />
+    <Content Include="Views\PaginaMaestra_Core.cshtml" />
+    <Content Include="Views\PaginaMaestra_MantenedorConsulta.cshtml" />
+    <Content Include="Views\RecepcionEncomienda\BuscaClienteEntrega.cshtml" />
+    <Content Include="Views\RecepcionEncomienda\GestionarRecepcionEncomienda.cshtml" />
+    <Content Include="Views\RecepcionEncomienda\ListarEntrega.cshtml" />
+    <Content Include="Views\InicioSesion\Home.cshtml" />
+    <Content Include="Views\InicioSesion\Login.cshtml" />
+    <Content Include="Views\Error\Error.cshtml" />
+    <Content Include="Views\EnvioEncomienda\CalculoPrecios.cshtml" />
+    <Content Include="Views\EnvioEncomienda\ClienteEntrega.cshtml" />
+    <Content Include="Views\EnvioEncomienda\ClienteEnvio.cshtml" />
+    <Content Include="Views\EnvioEncomienda\DetalleEnvio.cshtml" />
+    <Content Include="Views\EnvioEncomienda\GestionarEnvioEncomienda.cshtml" />
+    <Content Include="Views\EnvioEncomienda\GuardarEnvioEncomienda.cshtml" />
+    <Content Include="Views\EnvioEncomienda\TipoDocumento.cshtml" />
+    <Content Include="Views\Cliente\modificarCliente.cshtml" />
+    <Content Include="Views\Cliente\NuevoCliente.cshtml" />
+    <Content Include="Views\Cliente\RegistroCliente.cshtml" />
+    <Content Include="Views\ReporteEncomiendas\ListarEnvios.cshtml" />
+    <Content Include="Views\ReporteEncomiendas\ListarReporte.cshtml" />
+    <Content Include="Views\ReporteEncomiendas\ObtenerMontoTotal.cshtml" />
+    <Content Include="Views\Usuario\ListaUsuario.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Usuario\UsuarioSave.cshtml" />
+    <Content Include="Views\EnvioEncomienda\ListarEnvios.cshtml" />
+    <Content Include="Views\EnvioEncomienda\EnviarEncomienda.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\C2_Aplicacion\C2_Aplicacion.csproj">
+      <Project>{309090e8-5a54-43bc-99a7-1f4c7b70649d}</Project>
+      <Name>C2_Aplicacion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\C3_Dominio\C3_Dominio.csproj">
+      <Project>{ddb2aba0-fcf0-40bc-ab24-d72427afcd65}</Project>
+      <Name>C3_Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\C4_Persistencia\C4_Persistencia.csproj">
+      <Project>{bc499746-9dbd-4bab-8275-13309632764f}</Project>
+      <Name>C4_Persistencia</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1976</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:26487/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

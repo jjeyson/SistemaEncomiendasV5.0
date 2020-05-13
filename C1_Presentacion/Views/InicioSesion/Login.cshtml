@@ -1,0 +1,61 @@
+﻿@*@model C3_Dominio.Entidades.Usuario*@
+@model C3_Dominio.Entidades.Usuario
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
+    <meta name="author" content="GeeksLabs">
+    <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>Inicio Sesion</title>
+
+    <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../Bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="../Bootstrap/css/elegant-icons-style.css" rel="stylesheet" />
+    <link href="../Bootstrap/css/font-awesome.css" rel="stylesheet" />
+    <link href="../Bootstrap/css/style.css" rel="stylesheet">
+    <link href="../Bootstrap/css/style-responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="login-img3-body">
+
+    <div class="container">
+
+
+        <form class="login-form" method="post" >
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+                        <div class="login-wrap">
+
+
+                <p class="login-img"><i class="icon_lock_alt"></i></p>
+
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_profile"></i></span>
+                    <input type="text" name="txtUsuario" class="form-control" placeholder="Usuario" autofocus>
+                    @Html.ValidationMessageFor(model => model.Usuarios)
+                 </div>
+              
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_key_alt"></i></span>
+                    <input type="password" name="txtClave" class="form-control" placeholder="Clave">
+                    @Html.ValidationMessageFor(model => model.Clave)
+                 </div>
+               
+                <button class="btn btn-primary btn-lg btn-block" type="submit" name="btnIngresar">Iniciar Sesion</button>
+                            <h3 align="center" style="color:red">@ViewBag.mensaje</h3>
+            </div>
+}
+       
+        </form>
+
+    </div>
+
+</body>
+</html>
+

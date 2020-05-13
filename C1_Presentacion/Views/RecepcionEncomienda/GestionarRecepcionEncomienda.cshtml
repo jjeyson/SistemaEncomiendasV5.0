@@ -1,0 +1,59 @@
+﻿@model IEnumerable<C3_Dominio.Entidades.DetalleDocumentoEnvioEncomienda>
+@{
+    ViewBag.Title = "GestionarRecepcionEncomienda";
+    Layout = "~/Views/MasterPrincipal.cshtml";
+}
+<script src="~/Bootstrap/js/jquery-1.11.0.js"></script>
+<h2>Gestionar Recepcion Encomienda</h2>
+<form method="post">
+    @*action="~/RecepcionEncomienda/RegistrarRecepcionEncomienda"*@
+    <div class="form-group row">
+        <label class="col-md-2">Cliente Entrega:</label>
+        <div class="col-md-8">
+            <input type="text" class="form-control" name="txtDniRuc2" id="txtDniRuc2" placeholder="Ingresa RUC o DNI" maxlength="11" onkeypress="return solonumeros(event)" onpaste="return false" />
+
+        </div>  <input type="button" class="col-md-2 btn" value="BUSCAR" id="BuscaClienteEntrega" />
+    </div>
+    <div id="bEnvio">
+        <br />
+
+    </div>
+    <div id="bDetalle">
+        <br />
+
+    </div>
+
+
+    <br />
+
+</form>
+<h3 align="center" style="color:red">@ViewBag.mensaje</h3>
+<script type="text/javascript">
+    $("#BuscaClienteEntrega").click(function () {
+        $("#bEnvio").load('@Url.Action("BuscaClienteEntrega", "RecepcionEncomienda")', {
+            ClienteEntrega: $('#txtDniRuc2').val()
+        })
+    });
+    $("#BuscaClienteEntrega").click(function () {
+        $("#bDetalle").load('@Url.Action("ListarEntrega", "RecepcionEncomienda")', {
+            Documento: $('#txtDniRuc2').val()
+        })
+    });
+    function solonumeros(e) {
+        key = e.keyCode || e.which;
+        teclado = String.fromCharCode(key);
+        numero = "0123456789";
+        especiales = "8-37-38-46";//array
+        teclado_especial = false;
+        for (var i in especiales) {
+            if (key == especiales[i]) {
+                teclado_especial = true;
+            }
+        }
+        if (numero.indexOf(teclado) == -1 && !teclado_especial) {
+            return false;
+        }
+
+    }
+</script>
+

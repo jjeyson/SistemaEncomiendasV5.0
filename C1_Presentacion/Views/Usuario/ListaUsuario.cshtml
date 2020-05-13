@@ -1,0 +1,52 @@
+﻿@model IEnumerable<C3_Dominio.Entidades.Usuario>
+@{
+    ViewBag.Title = "Lista de Usuarios";
+    Layout = "~/Views/MasterPrincipal.cshtml";
+}
+
+<h2>Lista de Usuarios</h2>
+<tr>
+    <td>Buscar </td>
+    <td><input name="txtDniRuc" type="text" maxlength="11" id="txtDniRuc" onpaste="return false" onkeypress="return solonumeros(event)" /></td>
+    <td><input type="submit" value="BUSCAR USUARIO" name="btnBuscar" /></td>
+    <td>@Html.ActionLink("Crear", "UsuarioSave", new { idUsuario = 0 })</td>
+</tr>
+
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Apellido</th>
+                            <th scope="col">Cargo</th>
+                            <th scope="col">Direccion</th>
+                            <th scope="col">DNI</th>
+                            <th scope="col">Sucursal</th>
+                            <th scope="col">Usuario</th>
+                            <th scope="col">Password</th>
+                            <th scope="col">Estado</th>
+                            <th scope="col">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                                        @foreach (var u in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => u.NombreUsuario)</td>
+                            <td>@Html.DisplayFor(modelItem => u.ApellidosUsuario)</td>
+                            <td>@Html.DisplayFor(modelItem => u.Cargo)</td>
+                            <td>@Html.DisplayFor(modelItem => u.Direccion)</td>
+                            <td>@Html.DisplayFor(modelItem => u.DNI)</td>
+                            <td>@Html.DisplayFor(modelItem => u.sucursal.Ciudad)</td>
+                            <td>@Html.DisplayFor(modelItem => u.Usuarios)</td>
+                            <td>@Html.DisplayFor(modelItem => u.Clave)</td>
+                            <td>@Html.DisplayFor(modelItem => u.Activo)</td>
+                            <td>@Html.ActionLink("Modificar", "UsuarioSave", new { idUsuario = u.IdUsuario })</td>
+                            <td>@Html.ActionLink("Eliminar", "UsuarioDelete", new { idUsuario = u.IdUsuario })</td>
+                        </tr>
+                    }
+                            
+                    </tbody>
+                </table>
+
+    
+

@@ -1,0 +1,275 @@
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\C1_Presentacion.dll.config
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\C1_Presentacion.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\C1_Presentacion.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\Antlr3.Runtime.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\C2_Aplicacion.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\C3_Dominio.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\Newtonsoft.Json.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Helpers.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Mvc.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Optimization.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Razor.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\WebGrease.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\C4_Persistencia.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\C2_Aplicacion.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\C3_Dominio.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Helpers.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Mvc.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Optimization.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Razor.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\Newtonsoft.Json.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\Antlr3.Runtime.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\C4_Persistencia.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Http.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\System.Net.Http.Formatting.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Http.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\System.Net.Http.Formatting.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Http.resources.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\Sistema_Encomienda\C1_Presentacion\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\C1_Presentacion.dll.config
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\C1_Presentacion.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\C1_Presentacion.pdb
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\Antlr3.Runtime.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\C2_Aplicacion.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\C3_Dominio.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\C4_Persistencia.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\Newtonsoft.Json.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Helpers.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Mvc.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Optimization.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Razor.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Razor.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\WebGrease.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\System.Net.Http.Formatting.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\C2_Aplicacion.pdb
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\C3_Dominio.pdb
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\C4_Persistencia.pdb
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\C4_Persistencia.dll.config
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Http.xml
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Helpers.xml
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Mvc.xml
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Optimization.xml
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Razor.xml
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.xml
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Razor.xml
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\Newtonsoft.Json.xml
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\Antlr3.Runtime.pdb
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\System.Net.Http.Formatting.xml
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Http.resources.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Optimization.resources.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.WebPages.resources.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.csprojAssemblyReference.cache
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.csproj.CopyComplete
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.dll
+C:\Users\georg\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\APS\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.pdb
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\C1_Presentacion.dll.config
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\C1_Presentacion.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\C1_Presentacion.pdb
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\Antlr3.Runtime.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\C2_Aplicacion.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\C3_Dominio.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\C4_Persistencia.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\Newtonsoft.Json.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Helpers.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Http.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Mvc.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Optimization.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Razor.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\WebGrease.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\System.Net.Http.Formatting.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\C2_Aplicacion.pdb
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\C3_Dominio.pdb
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\C4_Persistencia.pdb
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Http.xml
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Helpers.xml
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Mvc.xml
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Optimization.xml
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Razor.xml
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.xml
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\Newtonsoft.Json.xml
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\Antlr3.Runtime.pdb
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\System.Net.Http.Formatting.xml
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Http.resources.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.dll
+C:\Users\Rodriguez\OneDrive - Universidad Privada del Norte\UPN\CICLO VIII\CAYPS\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.pdb
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C1_Presentacion.dll.config
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C1_Presentacion.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C1_Presentacion.pdb
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\Antlr3.Runtime.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C2_Aplicacion.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C3_Dominio.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C4_Persistencia.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\Newtonsoft.Json.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Helpers.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Mvc.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Optimization.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Razor.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Razor.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\WebGrease.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Net.Http.Formatting.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C2_Aplicacion.pdb
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C3_Dominio.pdb
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C4_Persistencia.pdb
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C4_Persistencia.dll.config
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Http.xml
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Helpers.xml
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Mvc.xml
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Optimization.xml
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Razor.xml
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.xml
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Razor.xml
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\Newtonsoft.Json.xml
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\Antlr3.Runtime.pdb
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Net.Http.Formatting.xml
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Http.resources.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Optimization.resources.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.WebPages.resources.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.csprojAssemblyReference.cache
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.csproj.CopyComplete
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.dll
+C:\Users\georg\source\repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.pdb
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C1_Presentacion.dll.config
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C1_Presentacion.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C1_Presentacion.pdb
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\Antlr3.Runtime.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C2_Aplicacion.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C3_Dominio.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C4_Persistencia.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\Newtonsoft.Json.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Helpers.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Http.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Mvc.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Optimization.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Razor.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\WebGrease.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Net.Http.Formatting.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C2_Aplicacion.pdb
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C3_Dominio.pdb
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C4_Persistencia.pdb
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Http.xml
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Helpers.xml
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Mvc.xml
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Optimization.xml
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Razor.xml
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.xml
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\Newtonsoft.Json.xml
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\Antlr3.Runtime.pdb
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Net.Http.Formatting.xml
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Http.resources.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.dll
+C:\Users\Rodriguez\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.pdb
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C1_Presentacion.dll.config
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C1_Presentacion.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C1_Presentacion.pdb
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\Antlr3.Runtime.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C2_Aplicacion.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C3_Dominio.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C4_Persistencia.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\Newtonsoft.Json.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Helpers.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Http.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Mvc.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Optimization.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Razor.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\WebGrease.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Net.Http.Formatting.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C2_Aplicacion.pdb
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C3_Dominio.pdb
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C4_Persistencia.pdb
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\C4_Persistencia.dll.config
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Http.xml
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Helpers.xml
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Mvc.xml
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Optimization.xml
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.Razor.xml
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.xml
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\Newtonsoft.Json.xml
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\Antlr3.Runtime.pdb
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\System.Net.Http.Formatting.xml
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.csprojAssemblyReference.cache
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.csproj.CopyComplete
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.dll
+C:\Users\Nicky\Source\Repos\Sistema_Encomiendas\Sistema_Encomienda\C1_Presentacion\obj\Debug\C1_Presentacion.pdb

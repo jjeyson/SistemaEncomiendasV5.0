@@ -1,0 +1,18 @@
+﻿@using System.Data
+@model C3_Dominio.Entidades.DocumentoPago
+<script src="~/Bootstrap/js/jquery-1.11.0.js"></script>
+@{
+    DataTable dt = (DataTable)Session["MontoTotales"];
+
+   foreach (DataRow r  in dt.Rows)
+    {
+        <table>
+            <tr>
+                <td>Monto Total de Ingresos:</td>
+                <td>
+                    <input name="txtMontoTotal" type="text" maxlength="25" id="txtMontoTotal" disabled="disabled" value="@r["Monto"]"/>
+                </td>
+            </tr>
+        </table>
+}}
+  <h3 align="center" style="color:red">@ViewBag.mensaje</h3>

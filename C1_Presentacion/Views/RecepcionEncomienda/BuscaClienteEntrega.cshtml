@@ -1,0 +1,37 @@
+﻿@using System.Data
+@model C3_Dominio.Entidades.Cliente
+<script src="~/Bootstrap/js/jquery-1.11.0.js"></script>
+@{
+    DataTable dt = (DataTable)Session["BuscaClienteEntrega"];
+    foreach (DataRow r in dt.Rows)
+    {
+        <div class="form-group row">
+            <label class="col-md-2">Nombre / Razon Social :</label>
+            <div class="col-md-8">
+                <input name="txtNombreCliente" class="form-control" type="text" maxlength="25" id="txtNombreCliente" disabled="disabled" value="@r["Nombre"]" />
+            </div>
+        </div>
+        <div class="form-group row">
+             <label class="col-md-2">@r["TipoDocumento"] :</label>
+             <div class="col-md-8">
+                <input name="txtNroDocumento" class="form-control" type="text" maxlength="25" id="txtNroDocumento" disabled="disabled" value="@r["NroDocumento"]" />
+            </div>
+        </div>
+        <div class="form-group row">
+             <label class="col-md-2">Direccion :</label>
+             <div class="col-md-8"><input class="form-control" name="txtDireccion" type="text" id="txtDireccion" disabled="disabled" value="@r["Direccion"]" /></div>
+
+        </div>
+        <div class="form-group row">
+             <label class="col-md-2">Telefono :</label>
+             <div class="col-md-8"><input class="form-control" name="txtTelefono" type="text" id="txtTelefono" disabled="disabled" value="@r["Telefono"]" /></div>
+
+        </div>
+        <div class="form-group row">
+             <label class="col-md-2">
+                <input name="txtIdClienteEntrega" class="form-control" type="text" maxlength="3" id="txtIdClienteEntrega" style='visibility:hidden' value="@r["IdCliente"]" />
+            </label>
+        </div>
+
+    }
+}

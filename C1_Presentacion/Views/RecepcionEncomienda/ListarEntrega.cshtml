@@ -1,0 +1,64 @@
+﻿@using System.Data
+@model IEnumerable<C3_Dominio.Entidades.DetalleDocumentoEnvioEncomienda>
+
+<script src="~/Bootstrap/js/jquery-1.11.0.js"></script>
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">
+                Paquetes a Entregar
+            </header>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        @*<th>Nro. Documento</th>
+                            <th>Razon Social</th>
+                            <th>Nombre</th>
+                            <th>Ap.Paterno</th>
+                            <th>Ap.Materno</th>*@
+                    <th>N°</th>
+                    <th>Remitente</th>
+                    <th>Fecha Envio</th>
+                    <th>Descripcion</th>
+                    <th>Peso</th>
+                    </thead>
+                    <tbody>
+                        @{
+                            int i = 0;
+                            if (Model != null)
+                            {
+                                foreach (var m in Model)
+                                {
+                                    i++;
+                                    <tr>
+                                        <td>@i</td>
+                                        @*<td>@Html.DisplayFor(modelItem => m.DocumentoEnvio.ClienteEntrega.NumeroDocumento)</td>
+                                            <td>@Html.DisplayFor(modelItem => m.DocumentoEnvio.ClienteEntrega.RazonSocial)</td>
+                                            <td>@Html.DisplayFor(modelItem => m.DocumentoEnvio.ClienteEntrega.NombreCliente)</td>
+                                            <td>@Html.DisplayFor(modelItem => m.DocumentoEnvio.ClienteEntrega.ApellidoPaternoCliente)</td>
+                                            <td>@Html.DisplayFor(modelItem => m.DocumentoEnvio.ClienteEntrega.ApellidoMaternoCliente)</td>*@
+                                        <td>@Html.DisplayFor(modelItem => m.DocumentoEnvio.ClienteEnvio.NombreCliente)</td>
+                                        <td>@Html.DisplayFor(modelItem => m.DocumentoEnvio.FechaEnvio)</td>
+                                        <td>@Html.DisplayFor(modelItem => m.Descripcion)</td>
+                                        <td>@Html.DisplayFor(modelItem => m.Peso)</td>
+                                        @* <td><input name="txtId" type="text" maxlength="1" id="txtId" style='visibility:hidden' value="@Html.DisplayFor(modelItem => m.DocumentoEnvio.ClienteEntrega.IdCliente)" /></td>*@
+                                    </tr>
+                                }
+
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+</div>
+<h3 align="center" style="color:red">@ViewBag.mensaje</h3>
+<table>
+    <tr>
+        <td><input type="submit" class="btn" value="REGISTRAR ENTREGA" name="btnRegistrar" /></td>
+    </tr>
+</table>
+

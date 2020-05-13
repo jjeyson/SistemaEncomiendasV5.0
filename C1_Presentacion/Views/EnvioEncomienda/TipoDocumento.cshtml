@@ -1,0 +1,35 @@
+﻿@using System.Data
+@model C3_Dominio.Entidades.DocumentoPago
+<script src="~/Bootstrap/js/jquery-1.11.0.js"></script>
+@{
+    DataTable dt = (DataTable)Session["TipoDocumento"];
+
+    foreach (DataRow r in dt.Rows)
+    {
+        if (dt.Rows.Count > 0)
+        {
+            <div class="form-group row">
+                <div class="col-md-2">
+                    <label name="txtTipoDocumento" id="txtTipoDocumento">
+                        @r["NombreTipo"]
+                    </label>
+                </div>
+                <label class="col-md-2">Numero Serie: </label>
+                <div class="col-md-3">
+                    <input name="txtNSeries" class="form-control" type="text" id="txtNSeries" disabled="disabled" value="@r["NumSerie"]" />
+                </div>
+                <label class="col-md-2">Numero Documento: </label>
+                <div class="col-md-3">
+                    <input name="txtNdocumentos" class="form-control" type="text" id="txtNdocumentos" disabled="disabled" value="@r["NumDocumento"]" />
+                </div>
+                <div class="col-md-3">
+                    <input name="txtNSerie" class="form-control" type="text" id="txtNSerie" style='visibility:hidden' value="@r["NumSerie"]" />
+                </div>
+                <div class="col-md-3">
+                    <input name="txtNdocumento" class="form-control" type="text" id="txtNdocumento" style='visibility:hidden' value="@r["NumDocumento"]" />
+                </div>
+
+            </div>
+        }
+    }
+}

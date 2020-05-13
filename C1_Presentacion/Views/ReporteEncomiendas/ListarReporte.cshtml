@@ -1,0 +1,105 @@
+﻿@model IEnumerable<C3_Dominio.Entidades.DocumentoPago>
+
+@{
+    ViewBag.Title = "ListarReporte";
+    Layout = "~/Views/MasterPrincipal.cshtml";
+}
+<script src="~/Bootstrap/js/jquery-1.11.0.js"></script>
+<h2>ListarReporte</h2>
+<form method="post">
+    @*Mostrar Por Fecha y Ruta: <input type="radio" name="rbuton" value="fechasRutas" id="fechasRutas">
+   Mostrar Por Fechas: <input type="radio" name="rbuton" value="fechas" id="fechas"> 
+   Mostrar Por Rutas: <input type="radio" name="rbuton" value="rutas" id="rutas"> 
+    </br>
+    </br>*@
+    <label id="lblDesde">Desde</label><input type="text" name="txtDesde" id="txtDesde" placeholder="Fecha DD/MM/AAAA"  onkeypress="return soloFechas(event)" onpaste="return false" maxlength="10" />
+    <label id="lblHasta">Hasta</label><input type="text" name="txtHasta" id="txtHasta" placeholder="Fecha DD/MM/AAAA" onkeypress="return soloFechas(event)" onpaste="return false" maxlength="10" />
+   @*<label id="lblRuta">Ruta</label>@Html.DropDownList("Ruta", (SelectList)ViewBag.ListaRutas, "<<Seleccionar>>", new { id = "cboRuta" })*@
+    
+    <input type="button" id="VerReporte" value="VER REPORTE" />
+    <br />
+    <div id="bListar">
+        <br />
+
+    </div>
+
+    <div id="bCalcula">
+        <br />
+
+    </div>
+</form>
+<h3 align="center" style="color:red">@ViewBag.mensaje</h3>
+<script type="text/javascript">
+    //$(document).ready(function () {
+    //    $("#fechasRutas").click(function () {
+    //        if ($("#fechasRutas").is(':checked')) {
+    //            $("#txtDesde").show("slow");
+    //            $("#txtHasta").show("slow");
+    //            $("#cboRuta").show("slow");
+    //            $("#lblDesde").show("slow");
+    //            $("#lblHasta").show("slow");
+    //            $("#lblRuta").show("slow");
+    //        }
+
+    //    });
+    //});
+    //$(document).ready(function () {
+    //    $("#fechas").click(function () {
+    //        if ($("#fechas").is(':checked')) {
+    //            $("#txtDesde").show("slow");
+    //            $("#txtHasta").show("slow");
+    //            $("#cboRuta").hide("slow");
+    //            $("#lblRuta").hide("slow");
+    //            $("#lblDesde").show("slow");
+    //            $("#lblHasta").show("slow");
+    //            $("#cboRuta").val("<<Seleccionar>>");
+    //        }
+         
+    //    });
+    //});
+    //$(document).ready(function () {
+    //    $("#rutas").click(function () {
+    //        if ($("#rutas").is(':checked')) {
+    //            $("#lblRuta").show("slow");
+    //            $("#cboRuta").show("slow");
+    //            $("#txtDesde").hide("slow");
+    //            $("#txtHasta").hide("slow");
+    //            $("#lblDesde").hide("slow");
+    //            $("#lblHasta").hide("slow");
+    //        }
+       
+    //    });
+    //});
+    $("#VerReporte").click(function () {
+        $("#bListar").load('@Url.Action("ListarEnvios", "ReporteEncomiendas")', {
+            Desde: $('#txtDesde').val(), Hasta: $('#txtHasta').val(), idRuta: $('#cboRuta').val()
+        })
+    });
+    $("#VerReporte").click(function () {
+        $("#bCalcula").load('@Url.Action("ObtenerMontoTotal", "ReporteEncomiendas")', {
+            Desde: $('#txtDesde').val(), Hasta: $('#txtHasta').val(), idRuta: $('#cboRuta').val()
+        })
+    });
+
+
+        $(document).ready(function () {
+            $("#txtDesde").datepicker({ dateFormat: 'dd/mm/yy' }).val();
+            $("#txtHasta").datepicker({ dateFormat: 'dd/mm/yy' }).val();
+        });
+        function soloFechas(e) {
+            key = e.keyCode || e.which;
+            teclado = String.fromCharCode(key);
+            numero = "0123456789/";
+            especiales = "8-37-38-46";//array
+            teclado_especial = false;
+            for (var i in especiales) {
+                if (key == especiales[i]) {
+                    teclado_especial = true;
+                }
+            }
+            if (numero.indexOf(teclado) == -1 && !teclado_especial) {
+                return false;
+            }
+
+        }
+</script>
